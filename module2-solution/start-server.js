@@ -5,4 +5,4 @@ bs.init({
 
 });
 
-bs.watch('*.html').on('change', bs.reload);
+bs.watch(['*.html','*/*.css']).on('change', bs.reload);
